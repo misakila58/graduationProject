@@ -16,6 +16,8 @@ public class GameManager : MonoBehaviour
         
     }
 
+    
+
     void PickGame(int gameNum) //1: 잔치기 
     {
         switch (gameNum)
