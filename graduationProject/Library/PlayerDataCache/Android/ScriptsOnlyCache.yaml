@@ -533,4 +533,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: D:/graduationProject/graduationProject/graduationProject/Build(AOS)/Test_1.apk
+  playerPath: D:/graduationProject/graduationProject/Build(AOS)/Test_1.apk
