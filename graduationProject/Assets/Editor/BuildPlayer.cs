@@ -12,7 +12,7 @@ public class BuildPlayer : MonoBehaviour
     {
         BuildPlayerOptions buildPlayerOptions = new BuildPlayerOptions();
         buildPlayerOptions.scenes = FindEnabledEditorScenes();
-        buildPlayerOptions.locationPathName = string.Format("Build(AOS)/Test_{0}.apk", PlayerSettings.bundleVersion);
+        buildPlayerOptions.locationPathName = string.Format("D:/graduationProject/graduationProject/Build(AOS)/Test_{0}.apk", PlayerSettings.bundleVersion);
         buildPlayerOptions.target = BuildTarget.Android;
         buildPlayerOptions.options = BuildOptions.Development;
         BuildReport report = BuildPipeline.BuildPlayer(buildPlayerOptions);
@@ -35,7 +35,7 @@ public class BuildPlayer : MonoBehaviour
     {
         BuildPlayerOptions buildPlayerOptions = new BuildPlayerOptions();
         buildPlayerOptions.scenes = FindEnabledEditorScenes();
-        buildPlayerOptions.locationPathName = "Build(IOS)";
+        buildPlayerOptions.locationPathName = "graduationProject/Build(IOS)";
         buildPlayerOptions.target = BuildTarget.iOS;
         buildPlayerOptions.options = BuildOptions.None;
         BuildReport report = BuildPipeline.BuildPlayer(buildPlayerOptions);
