@@ -10,6 +10,7 @@ public class BuildPlayer : MonoBehaviour
     [MenuItem("Build/Build Aos(Debug)")]
     public static void Build_AOS_Debug()
     {
+        Debug.Log("들어오는거니??");
         BuildPlayerOptions buildPlayerOptions = new BuildPlayerOptions();
         buildPlayerOptions.scenes = FindEnabledEditorScenes();
         buildPlayerOptions.locationPathName = string.Format("D:/graduationProject/graduationProject/Build(AOS)/Test_{0}.apk", PlayerSettings.bundleVersion);
