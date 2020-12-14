@@ -1,0 +1,1 @@
+"C:\Program Files\Unity\Hub\Editor\2019.4.16f1\Editor\Unity.exe" -quit -batchmode -projectPath "D:\graduationProject\graduationProject" -executeMethod  BuildPlayer.Build_AOS_Debug

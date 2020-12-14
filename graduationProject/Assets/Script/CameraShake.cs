@@ -25,7 +25,7 @@ public class CameraShake : MonoBehaviour
     {
 
         left = true;
-        count = 1;
+        count = 0;
      
         if (camTransform == null)
         {
@@ -42,16 +42,16 @@ public class CameraShake : MonoBehaviour
 
         if (left == true)
         {
-            camTransform.localPosition += new Vector3(1f * count, 0, 0);
-            if (camTransform.position.x >= 1100)
+            camTransform.localPosition += new Vector3(0.7f * count, 0, 0);
+            if (camTransform.position.x >= 1000)
             {
                 left = false;
             }
         }
         else if (left == false)
         {
-            camTransform.localPosition -= new Vector3(1f * count , 0, 0);
-            if (camTransform.position.x <=820)
+            camTransform.localPosition -= new Vector3(0.7f * count , 0, 0);
+            if (camTransform.position.x <=900)
             {
                 left = true;
             }
