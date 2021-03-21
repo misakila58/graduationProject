@@ -1,0 +1,4 @@
+d:
+cd D:\graduationProject\graduationProject\Build(AOS)
+
+ren test.apk test_%date%_%time:~0,2%%time:~3,2%.apk
