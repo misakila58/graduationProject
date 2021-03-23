@@ -2,3 +2,6 @@ d:
 cd D:\graduationProject\graduationProject\Build(AOS)
 
 ren test.apk test_%date%_%time:~0,2%%time:~3,2%.apk
+
+
+"C:\Program Files\Unity\Hub\Editor\2019.4.22f1\Editor\Unity.exe" -quit -batchmode -projectPath "D:\graduationProject\graduationProject" -executeMethod BuildPlayer.Build_AOS_Debug

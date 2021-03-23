@@ -29,17 +29,9 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
-    - Class: 23
-      Script: {instanceID: 0}
     - Class: 28
       Script: {instanceID: 0}
-    - Class: 33
-      Script: {instanceID: 0}
-    - Class: 43
-      Script: {instanceID: 0}
     - Class: 48
-      Script: {instanceID: 0}
-    - Class: 65
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
@@ -62,13 +54,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12342}
     - Class: 114
-      Script: {instanceID: 12558}
+      Script: {instanceID: 12560}
     - Class: 114
-      Script: {instanceID: 12738}
+      Script: {instanceID: 12740}
     - Class: 114
-      Script: {instanceID: 12786}
+      Script: {instanceID: 12788}
     - Class: 114
-      Script: {instanceID: 13090}
+      Script: {instanceID: 13092}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -250,6 +242,12 @@ ScriptsOnlyBuild:
     className: Shadow
   - hash:
       serializedVersion: 2
+      Hash: 5f170942ee57c7a568f5bcfc7521adea
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: EnumerableTestState
+  - hash:
+      serializedVersion: 2
       Hash: cc4274b586df3c02688bac01b88bd16c
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -346,7 +344,7 @@ ScriptsOnlyBuild:
     className: VerticalLayoutGroup
   - hash:
       serializedVersion: 2
-      Hash: 783f593b9380cf72d0f7ebfd4a0d4bcd
+      Hash: f64fd37da5cb89243ec68b5026d70bb8
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: InputField
@@ -364,7 +362,7 @@ ScriptsOnlyBuild:
     className: HorizontalLayoutGroup
   - hash:
       serializedVersion: 2
-      Hash: 35a9693c388776aaf487636491a20f11
+      Hash: a9f049c3dc82bb36fdb142e4d6a2658d
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_FontAsset
